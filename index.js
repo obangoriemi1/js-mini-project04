@@ -12,8 +12,8 @@ scoreEl.innerText = `Score: ${score}`
 let num1, num2, correctAns;
 
 function generateQuestion() {
-    num1 = Math.ceil(Math.random() * 10)
-    num2 = Math.ceil(Math.random() * 10)
+    num1 = Math.ceil(Math.random() * 20)
+    num2 = Math.ceil(Math.random() * 20)
     correctAns = num1 * num2
     questionEl.innerText = `What is ${num1} multiply by ${num2}?`
 }
